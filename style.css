@@ -27,32 +27,35 @@ html {
     align-items: center;
     background-color: #1f1e1f;
     position: fixed;
-    padding-left: 30rem;
+    padding-left: 18rem;
 }
 
 .logo {
-    width: 70px;
+    width: 60px;
     height: auto;
     cursor: pointer;
     display: flex;
-    align-items: center;
+    align-items:center;
+    
 }
 
 .logo h3 {
     color: darkorange;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 .logo img {
     width: 100%;
     height: 100%;
+    
 }
 
 .content .list-menu {
-    width: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;    
+    width: 700px;
+    display:flex;
+    align-items:center;
+    justify-content:baseline;
+        
 }
 
 .content .list-menu li a{
@@ -143,15 +146,276 @@ html {
 /* second-section */
 
 .second-section {
+    height: 100vh;
     background-image:linear-gradient(rgba(29, 29, 29, 0.8),rgba(29, 29, 29, 0.8)) ,url(./img/fundo.jpg);
     background-position: center center;
     background-size: cover;
-    background-repeat:repeat-x;
-    background-position-y: 0px;
+    background-repeat:repeat-x;    
     width: 100vw;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 590px;
+    }
+        
+    .second-section .menu-cardapio {
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+    .second-section h6 {
+        height: 100%;
+        width: 650px;
+        color: darkorange;
+        font-size: 6rem;
+        text-transform: uppercase;
+        text-align:center;
+        margin-bottom: 5rem;
+    }
+    .second-section h7 {
+        height: 100%;
+        width: 650px;
+        color: darkorange;
+        font-size: 3rem;
+        text-transform: uppercase;
+        text-align:center;
+        margin-bottom: 2rem;
+    }
+    .second-section p {
+        width: 650px;
+        color: darkorange;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        text-align:justify;
+        margin-bottom: 0rem;
+        
+    }
+
+    .second-section h10 {
+        font-family: 'roboto';
+        font-weight: bold;
+
+    }
+
+
+   
+    /* third-section */
+
+.third-section {
+    height: 100vh;
+    background-image:linear-gradient(rgba(29, 29, 29, 0.8),rgba(29, 29, 29, 0.8)) ,url(./img/fundo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat:repeat-x;    
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .third-section .menu-cardapio {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+    }
+    .third-section h8 {
+        height: 100%;
+        width: 650px;
+        color: darkorange;
+        font-size: 6rem;
+        text-transform: uppercase;
+        text-align:center;
+        margin-bottom: 5rem;
+    }
+    .third-section h9 {
+        height: 100%;
+        width: 650px;
+        color: darkorange;
+        font-size: 3rem;
+        text-transform: uppercase;
+        text-align:center;
+        margin-bottom: 0rem;
+    }
+    .third-section h11 {
+        height: 100%;
+        width: 650px;
+        color: darkorange;
+        font-size: 3rem;
+        text-transform: uppercase;
+        text-align:center;
+        margin-bottom: 0rem;
+    }
+    .third-section p {
+        width: 650px;
+        color: darkorange;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        text-align:justify;
+        margin-bottom: 2rem;}
+
+        .third-section h8 {
+            font-family: 'roboto';
+            font-weight: bold;}
+
+ /* fourth-section */
+
+.fourth-section {
+    height: 100vh;
+    background-image:linear-gradient(rgba(29, 29, 29, 0.8),rgba(29, 29, 29, 0.8)) ,url(./img/fundo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat:repeat-x;    
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .fourth-section .sobrenos {
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+    .fourth-section .sobrenos {
+        font-family: 'roboto';
+        font-weight: bold;}
+    
+    .fourth-section h13 {
+        height: 100%;
+        width: 650px;
+        color: darkorange;
+        font-size: 2rem;
+        text-transform: uppercase;
+        text-align:center;
+        margin-bottom: 0rem;
+    }
+    .fourth-section h14 {
+        height: 100%;
+        width: 650px;
+        color: darkorange;
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-align:center;
+        margin-bottom: 10rem;
+    }
+
+    .fourth-section .contato {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: transparent;
+        width: 500px;
+        padding: 10px 45px;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+
+    .fourth-section h15{
+        color: darkorange;
+        font-size: 2rem;
+        margin: 2rem; 
+    }
+
+    .fourth-section form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .fourth-section form label{
+        color: darkorange;
+        font-size: 17px;
+        margin-bottom: 4px;
+}
+    .fourth-section form imput{
+        padding: 15px;
+        outline: none;
+        border: 0;
+        margin-bottom: 20px;
+        font-size: 15px;
+        transition: all 0.5s;
+    }
+
+    .fourth-section form input:focus{
+        border-radius: 16px;
+    }
+    .fourth-section form textarea{
+        padding: 10px;
+        outline: none;
+        border: 0;
+        margin-bottom: 30px;
+        transition: all 0.5s;
+    }
+    .fourth-section form textarea :focus{
+        border-radius: 16px;
+    }
+    .fourth-section button{
+        width: 410px;
+        height: 50px;
+        cursor: pointer;
+        text-transform: uppercase;
+        background-color: darkorange;
+        border-radius: 10px;
+        color: black;
+        font-weight: 700;
+        margin-top: 1rem;
+        transition: all 400ms ease-in;
+    }
+    .fourth-section button:hover{
+        border: 1px solid darkorange;
+        background-color: transparent;
+        color: darkorange;
+    }
+    .fourth-section h15 {
+        font-family: 'roboto';
+        font-weight: bold;}
+
+        /*pagina do Obrigado*/
+
+    .obrigado {
+        height: 100vh;
+        background-image:linear-gradient(rgba(29, 29, 29, 0.8),rgba(29, 29, 29, 0.8)) ,url(./img/fundo.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat:repeat-x;    
+        width: 100vw;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+            }
+    .text{
+        color: darkorange;
+        font-size: 6rem;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+}
+    .paragrafo{
+        color: darkorange;
+        font-size: 3rem;
+        text-transform: uppercase;
+        margin-bottom: 8rem;
+    }
+    .btn2{
+        width: 410px;
+        height: 30px;
+        cursor: pointer;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: darkorange;
+        border-radius: 10px;
+        color: black;
+        font-weight: 700;
+        margin-top: 1rem;
+        transition: all 400ms ease-in;
+        font-size: 2.5rem;
+    }
+    .btn2:hover:hover{
+        border: 1px solid darkorange;
+        background-color: transparent;
+        color: darkorange;
     }
